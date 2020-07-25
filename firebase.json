@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "jsoncompare",
+    "public": "app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/public/index.html"
+      }
+    ]
+  }
+}
