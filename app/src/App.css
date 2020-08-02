@@ -39,8 +39,20 @@
   width:50px;
   cursor:pointer;
 }
-/* 
-.Butt:hover {
-  background-color: blue;
-  color:white;
-} */
+.Container {
+  width: auto;
+  background-color: #ffcc33;
+  margin: auto;
+}
+
+.First {
+  width: auto;
+  float: left;
+  height: 300px;
+}
+
+.Second {
+  width: auto;
+  float: left;
+  height: 300px;
+}

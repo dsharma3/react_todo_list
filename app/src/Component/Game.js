@@ -27,8 +27,8 @@ class Game extends React.Component{
     }
     getWinner(steps){ 
       return  this.getDiagonallyCrossedPlayer(steps)
-            || this.getHorizontallyCrossedPlayer(steps)
-            || this.getVerticallyCrossedPlayer(steps);
+                || this.getHorizontallyCrossedPlayer(steps)
+                || this.getVerticallyCrossedPlayer(steps);
 
     }
 
